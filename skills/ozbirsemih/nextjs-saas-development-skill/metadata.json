@@ -1,0 +1,16 @@
+{
+  "name": "Next.js SaaS Development Skill",
+  "slug": "ozbirsemih/nextjs-saas-development-skill",
+  "description": "Use this skill to assist with building, optimizing, and maintaining SaaS applications using Next.js, covering setup, architecture, deployment, and best practices.",
+  "category": "coding",
+  "tags": [
+    "nextjs",
+    "saas",
+    "web-development",
+    "react",
+    "javascript"
+  ],
+  "author": "ozbirsemih",
+  "version": "1.0.0",
+  "createdAt": "2026-07-02T15:08:28.748Z"
+}
