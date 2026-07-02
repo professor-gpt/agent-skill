@@ -1,36 +1,7 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-02T15:21:27.443Z",
+  "updatedAt": "2026-07-02T15:44:29.811Z",
   "skills": [
-    {
-      "name": "ozbirsemih/executive-assistant",
-      "title": "Executive Assistant",
-      "description": "Use this skill when you need to prepare meeting briefs, decision memos, executive summaries, follow‑ups, priority plans, or structured checklists from raw briefs, documents, and emails.",
-      "version": "1.0.0",
-      "author": "ozbirsemih",
-      "tags": [
-        "executive-assistant",
-        "meeting-brief",
-        "decision-memo",
-        "summary",
-        "checklist",
-        "prioritization"
-      ],
-      "category": "business",
-      "agents": [],
-      "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/ozbirsemih/executive-assistant/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/ozbirsemih/executive-assistant/metadata.json",
-      "files": [
-        "SKILL.md",
-        "examples/decision-memo-example.md",
-        "examples/meeting-brief-example.md",
-        "metadata.json",
-        "references/executive-terminology.md",
-        "templates/decision-memo-template.md",
-        "templates/meeting-brief-template.md"
-      ]
-    },
     {
       "name": "professor-gpt/code-reviewer",
       "title": "Code Reviewer",
