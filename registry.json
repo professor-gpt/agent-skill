@@ -1,7 +1,30 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-01T09:39:00.836Z",
+  "updatedAt": "2026-07-02T15:08:51.089Z",
   "skills": [
+    {
+      "name": "ozbirsemih/nextjs-saas-development-skill",
+      "title": "Next.js SaaS Development Skill",
+      "description": "Use this skill to assist with building, optimizing, and maintaining SaaS applications using Next.js, covering setup, architecture, deployment, and best practices.",
+      "version": "1.0.0",
+      "author": "ozbirsemih",
+      "tags": [
+        "nextjs",
+        "saas",
+        "web-development",
+        "react",
+        "javascript"
+      ],
+      "category": "coding",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/ozbirsemih/nextjs-saas-development-skill/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/ozbirsemih/nextjs-saas-development-skill/metadata.json",
+      "files": [
+        "SKILL.md",
+        "metadata.json"
+      ]
+    },
     {
       "name": "professor-gpt/code-reviewer",
       "title": "Code Reviewer",
