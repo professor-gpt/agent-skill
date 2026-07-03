@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-03T21:23:05.589Z",
+  "updatedAt": "2026-07-03T21:59:18.533Z",
   "skills": [
     {
       "name": "professor-gpt/ai-agent-builder",
@@ -17,7 +17,7 @@
         "guardrails",
         "orchestration"
       ],
-      "category": "ai",
+      "category": "ai-ml",
       "agents": [],
       "license": "MIT",
       "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ai-agent-builder/SKILL.md",
@@ -45,7 +45,7 @@
         "elt",
         "lakehouse"
       ],
-      "category": "data",
+      "category": "analysis",
       "agents": [],
       "license": "MIT",
       "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/data-engineer/SKILL.md",
@@ -73,7 +73,7 @@
         "gitops",
         "deployment"
       ],
-      "category": "infrastructure",
+      "category": "devops",
       "agents": [],
       "license": "MIT",
       "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/devops-engineer/SKILL.md",
@@ -101,7 +101,7 @@
         "unit-economics",
         "variance-analysis"
       ],
-      "category": "finance",
+      "category": "other",
       "agents": [],
       "license": "MIT",
       "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/financial-analyst/SKILL.md",
@@ -157,7 +157,7 @@
         "acquisition",
         "lifecycle-email"
       ],
-      "category": "marketing",
+      "category": "creativity",
       "agents": [],
       "license": "MIT",
       "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/growth-marketer/SKILL.md",
@@ -185,7 +185,7 @@
         "deployment",
         "monitoring"
       ],
-      "category": "ai",
+      "category": "ai-ml",
       "agents": [],
       "license": "MIT",
       "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ml-engineer/SKILL.md",
@@ -241,7 +241,7 @@
         "alerting",
         "reliability"
       ],
-      "category": "infrastructure",
+      "category": "coding",
       "agents": [],
       "license": "MIT",
       "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/sre-incident-commander/SKILL.md",
