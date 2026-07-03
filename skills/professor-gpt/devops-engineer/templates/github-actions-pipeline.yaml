@@ -1,0 +1,95 @@
+# Production-grade CI/CD pipeline template (GitHub Actions)
+# Adapt: replace the build/test commands with your stack's equivalents.
+# Principles baked in: fail fast, build once, pin by SHA, least-privilege token,
+# OIDC instead of static cloud keys, promote immutable digests.
+
+name: ci-cd
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read          # least privilege by default; widen per-job only
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true   # don't waste minutes on superseded commits
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE: ghcr.io/${{ github.repository }}
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4 — pin by SHA
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint                      # < 1 min: fail fast on style
+      - run: npm test -- --coverage            # unit tests, target < 5 min
+      - name: Enforce coverage floor
+        run: npx nyc check-coverage --lines 80
+
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Dependency audit
+        run: npm audit --audit-level=high
+      - name: SAST
+        uses: github/codeql-action/analyze@main  # or Semgrep: semgrep ci
+
+  build-and-push:
+    needs: [lint-and-test, security-scan]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      id-token: write        # OIDC — no static registry/cloud credentials
+    outputs:
+      digest: ${{ steps.push.outputs.digest }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567 # v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - id: push
+        uses: docker/build-push-action@ca877d9245402d1537745e0e356eab47c3520991 # v6
+        with:
+          push: true
+          tags: ${{ env.IMAGE }}:${{ github.sha }}
+          provenance: true          # SLSA provenance attestation
+          sbom: true                # SBOM generated at build time
+
+  deploy-staging:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - name: Deploy immutable digest (GitOps repo bump)
+        run: |
+          # Promote by DIGEST, never by mutable tag.
+          echo "Updating staging overlay to ${{ needs.build-and-push.outputs.digest }}"
+          # e.g. yq -i '.images[0].digest = "..."' k8s/staging/kustomization.yaml && git push
+      - name: Smoke test
+        run: curl --fail --retry 5 --retry-delay 10 https://staging.example.com/healthz
+
+  deploy-production:
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production    # protected environment = required reviewers
+    steps:
+      - name: Progressive rollout
+        run: |
+          # Canary via Argo Rollouts / Flagger: 10% -> 50% -> 100%,
+          # auto-rollback if error-rate delta > 0.1% or p99 latency delta > 10%.
+          echo "Promoting ${{ needs.build-and-push.outputs.digest }} to production"

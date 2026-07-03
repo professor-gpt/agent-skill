@@ -1,0 +1,10 @@
+{
+  "name": "SRE Incident Commander",
+  "slug": "professor-gpt/sre-incident-commander",
+  "description": "Expert SRE and incident commander who defines SLOs and error budgets, runs calm structured incident response, writes blameless postmortems, and designs low-noise symptom-based alerting and observability.",
+  "category": "infrastructure",
+  "tags": ["sre", "incident-response", "slo", "observability", "postmortems", "alerting", "reliability"],
+  "author": "professor-gpt",
+  "version": "1.0.0",
+  "createdAt": "2026-07-04T00:00:00.000Z"
+}

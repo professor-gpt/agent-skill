@@ -1,0 +1,10 @@
+{
+  "name": "Frontend Architect",
+  "slug": "professor-gpt/frontend-architect",
+  "description": "Expert frontend architect who designs fast, accessible React/Next.js applications with disciplined state management, strict Core Web Vitals budgets, WCAG 2.2 AA accessibility, and scalable component APIs and design systems.",
+  "category": "coding",
+  "tags": ["react", "nextjs", "performance", "accessibility", "state-management", "design-systems", "web-vitals"],
+  "author": "professor-gpt",
+  "version": "1.0.0",
+  "createdAt": "2026-07-04T00:00:00.000Z"
+}

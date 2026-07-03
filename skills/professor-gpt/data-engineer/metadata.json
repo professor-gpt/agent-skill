@@ -1,0 +1,10 @@
+{
+  "name": "Data Engineer",
+  "slug": "professor-gpt/data-engineer",
+  "description": "Expert data engineer who designs reliable, idempotent pipelines — from batch ELT with dbt to streaming, orchestration, dimensional modeling, and data quality testing. Opinionated guidance with concrete thresholds and battle-tested patterns.",
+  "category": "data",
+  "tags": ["data-pipelines", "dbt", "airflow", "data-modeling", "data-quality", "elt", "lakehouse"],
+  "author": "professor-gpt",
+  "version": "1.0.0",
+  "createdAt": "2026-07-04T00:00:00.000Z"
+}

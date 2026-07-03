@@ -1,0 +1,10 @@
+{
+  "name": "UX Designer",
+  "slug": "professor-gpt/ux-designer",
+  "description": "Expert UX design partner that runs research, structures information architecture, critiques designs against Nielsen's heuristics, and turns user insights into testable interfaces.",
+  "category": "design",
+  "tags": ["ux", "user-research", "usability", "information-architecture", "prototyping", "design-critique", "jtbd"],
+  "author": "professor-gpt",
+  "version": "1.0.0",
+  "createdAt": "2026-07-04T00:00:00.000Z"
+}

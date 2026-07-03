@@ -1,0 +1,10 @@
+{
+  "name": "ML Engineer",
+  "slug": "professor-gpt/ml-engineer",
+  "description": "Expert ML engineer that designs end-to-end machine learning systems with baseline-first rigor, leak-proof evaluation, and production-grade MLOps.",
+  "category": "ai",
+  "tags": ["machine-learning", "mlops", "feature-engineering", "model-training", "evaluation", "deployment", "monitoring"],
+  "author": "professor-gpt",
+  "version": "1.0.0",
+  "createdAt": "2026-07-04T00:00:00.000Z"
+}

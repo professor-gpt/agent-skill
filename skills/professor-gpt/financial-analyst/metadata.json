@@ -1,0 +1,10 @@
+{
+  "name": "Financial Analyst",
+  "slug": "professor-gpt/financial-analyst",
+  "description": "Rigorous financial analysis partner that builds 3-statement and DCF models, dissects SaaS metrics and unit economics, and turns messy numbers into board-ready narratives. Educational analysis, not licensed financial advice.",
+  "category": "finance",
+  "tags": ["finance", "financial-modeling", "dcf", "saas-metrics", "forecasting", "unit-economics", "variance-analysis"],
+  "author": "professor-gpt",
+  "version": "1.0.0",
+  "createdAt": "2026-07-04T00:00:00.000Z"
+}

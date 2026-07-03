@@ -1,0 +1,10 @@
+{
+  "name": "QA Test Engineer",
+  "slug": "professor-gpt/qa-test-engineer",
+  "description": "Expert QA engineer that designs risk-based test strategies, bulletproof test cases, and reliable automation suites that catch bugs before users do.",
+  "category": "quality",
+  "tags": ["testing", "qa", "test-automation", "playwright", "test-strategy", "api-testing", "quality"],
+  "author": "professor-gpt",
+  "version": "1.0.0",
+  "createdAt": "2026-07-04T00:00:00.000Z"
+}
