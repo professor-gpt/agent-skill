@@ -1,7 +1,287 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-02T15:44:29.811Z",
+  "updatedAt": "2026-07-03T21:23:05.589Z",
   "skills": [
+    {
+      "name": "professor-gpt/ai-agent-builder",
+      "title": "AI Agent Builder",
+      "description": "Expert LLM agent architect that designs reliable agentic systems — sharp tool interfaces, disciplined context engineering, rigorous evals, and guardrails that hold in production.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "llm-agents",
+        "prompt-engineering",
+        "tool-design",
+        "rag",
+        "evals",
+        "guardrails",
+        "orchestration"
+      ],
+      "category": "ai",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ai-agent-builder/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ai-agent-builder/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/agent-eval.md",
+        "examples/agent-architectures.md",
+        "metadata.json",
+        "templates/tool-definition-template.md"
+      ]
+    },
+    {
+      "name": "professor-gpt/data-engineer",
+      "title": "Data Engineer",
+      "description": "Expert data engineer who designs reliable, idempotent pipelines — from batch ELT with dbt to streaming, orchestration, dimensional modeling, and data quality testing. Opinionated guidance with concrete thresholds and battle-tested patterns.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "data-pipelines",
+        "dbt",
+        "airflow",
+        "data-modeling",
+        "data-quality",
+        "elt",
+        "lakehouse"
+      ],
+      "category": "data",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/data-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/data-engineer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/pipeline-review.md",
+        "examples/airflow-dag-patterns.py",
+        "metadata.json",
+        "templates/dbt-model-template.sql"
+      ]
+    },
+    {
+      "name": "professor-gpt/devops-engineer",
+      "title": "DevOps Engineer",
+      "description": "Senior DevOps engineer that designs CI/CD pipelines, container platforms, and infrastructure-as-code with battle-tested deployment strategies and DORA-metric discipline.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "devops",
+        "ci-cd",
+        "kubernetes",
+        "docker",
+        "terraform",
+        "gitops",
+        "deployment"
+      ],
+      "category": "infrastructure",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/devops-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/devops-engineer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/production-readiness.md",
+        "examples/dockerfile-best-practices.md",
+        "metadata.json",
+        "templates/github-actions-pipeline.yaml"
+      ]
+    },
+    {
+      "name": "professor-gpt/financial-analyst",
+      "title": "Financial Analyst",
+      "description": "Rigorous financial analysis partner that builds 3-statement and DCF models, dissects SaaS metrics and unit economics, and turns messy numbers into board-ready narratives. Educational analysis, not licensed financial advice.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "finance",
+        "financial-modeling",
+        "dcf",
+        "saas-metrics",
+        "forecasting",
+        "unit-economics",
+        "variance-analysis"
+      ],
+      "category": "finance",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/financial-analyst/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/financial-analyst/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/model-review.md",
+        "metadata.json",
+        "scripts/dcf_calculator.py",
+        "templates/financial-model-structure.md"
+      ]
+    },
+    {
+      "name": "professor-gpt/frontend-architect",
+      "title": "Frontend Architect",
+      "description": "Expert frontend architect who designs fast, accessible React/Next.js applications with disciplined state management, strict Core Web Vitals budgets, WCAG 2.2 AA accessibility, and scalable component APIs and design systems.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "react",
+        "nextjs",
+        "performance",
+        "accessibility",
+        "state-management",
+        "design-systems",
+        "web-vitals"
+      ],
+      "category": "coding",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/frontend-architect/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/frontend-architect/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/accessibility-audit.md",
+        "checklists/performance-budget.md",
+        "examples/react-patterns.md",
+        "metadata.json"
+      ]
+    },
+    {
+      "name": "professor-gpt/growth-marketer",
+      "title": "Growth Marketer",
+      "description": "Data-driven growth marketing partner that designs growth loops, prioritizes experiments with ICE, optimizes conversion funnels, and makes CAC/LTV math impossible to ignore.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "growth",
+        "marketing",
+        "cro",
+        "seo",
+        "experimentation",
+        "acquisition",
+        "lifecycle-email"
+      ],
+      "category": "marketing",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/growth-marketer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/growth-marketer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/landing-page-cro.md",
+        "examples/growth-loop-examples.md",
+        "metadata.json",
+        "templates/experiment-brief.md"
+      ]
+    },
+    {
+      "name": "professor-gpt/ml-engineer",
+      "title": "ML Engineer",
+      "description": "Expert ML engineer that designs end-to-end machine learning systems with baseline-first rigor, leak-proof evaluation, and production-grade MLOps.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "machine-learning",
+        "mlops",
+        "feature-engineering",
+        "model-training",
+        "evaluation",
+        "deployment",
+        "monitoring"
+      ],
+      "category": "ai",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ml-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ml-engineer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/model-deployment.md",
+        "examples/feature-engineering-patterns.md",
+        "metadata.json",
+        "scripts/train_eval.py"
+      ]
+    },
+    {
+      "name": "professor-gpt/qa-test-engineer",
+      "title": "QA Test Engineer",
+      "description": "Expert QA engineer that designs risk-based test strategies, bulletproof test cases, and reliable automation suites that catch bugs before users do.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "testing",
+        "qa",
+        "test-automation",
+        "playwright",
+        "test-strategy",
+        "api-testing",
+        "quality"
+      ],
+      "category": "quality",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/qa-test-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/qa-test-engineer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/release-testing.md",
+        "examples/playwright-patterns.md",
+        "metadata.json",
+        "templates/test-plan-template.md"
+      ]
+    },
+    {
+      "name": "professor-gpt/sre-incident-commander",
+      "title": "SRE Incident Commander",
+      "description": "Expert SRE and incident commander who defines SLOs and error budgets, runs calm structured incident response, writes blameless postmortems, and designs low-noise symptom-based alerting and observability.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "sre",
+        "incident-response",
+        "slo",
+        "observability",
+        "postmortems",
+        "alerting",
+        "reliability"
+      ],
+      "category": "infrastructure",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/sre-incident-commander/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/sre-incident-commander/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/incident-response.md",
+        "examples/slo-definitions.md",
+        "metadata.json",
+        "templates/postmortem-template.md"
+      ]
+    },
+    {
+      "name": "professor-gpt/ux-designer",
+      "title": "UX Designer",
+      "description": "Expert UX design partner that runs research, structures information architecture, critiques designs against Nielsen's heuristics, and turns user insights into testable interfaces.",
+      "version": "1.0.0",
+      "author": "professor-gpt",
+      "tags": [
+        "ux",
+        "user-research",
+        "usability",
+        "information-architecture",
+        "prototyping",
+        "design-critique",
+        "jtbd"
+      ],
+      "category": "design",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ux-designer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ux-designer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "checklists/heuristic-evaluation.md",
+        "examples/ux-research-plan.md",
+        "metadata.json",
+        "templates/usability-test-script.md"
+      ]
+    },
     {
       "name": "professor-gpt/code-reviewer",
       "title": "Code Reviewer",
