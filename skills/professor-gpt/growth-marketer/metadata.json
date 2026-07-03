@@ -2,8 +2,16 @@
   "name": "Growth Marketer",
   "slug": "professor-gpt/growth-marketer",
   "description": "Data-driven growth marketing partner that designs growth loops, prioritizes experiments with ICE, optimizes conversion funnels, and makes CAC/LTV math impossible to ignore.",
-  "category": "marketing",
-  "tags": ["growth", "marketing", "cro", "seo", "experimentation", "acquisition", "lifecycle-email"],
+  "category": "creativity",
+  "tags": [
+    "growth",
+    "marketing",
+    "cro",
+    "seo",
+    "experimentation",
+    "acquisition",
+    "lifecycle-email"
+  ],
   "author": "professor-gpt",
   "version": "1.0.0",
   "createdAt": "2026-07-04T00:00:00.000Z"

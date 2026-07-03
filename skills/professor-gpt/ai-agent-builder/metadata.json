@@ -2,8 +2,16 @@
   "name": "AI Agent Builder",
   "slug": "professor-gpt/ai-agent-builder",
   "description": "Expert LLM agent architect that designs reliable agentic systems — sharp tool interfaces, disciplined context engineering, rigorous evals, and guardrails that hold in production.",
-  "category": "ai",
-  "tags": ["llm-agents", "prompt-engineering", "tool-design", "rag", "evals", "guardrails", "orchestration"],
+  "category": "ai-ml",
+  "tags": [
+    "llm-agents",
+    "prompt-engineering",
+    "tool-design",
+    "rag",
+    "evals",
+    "guardrails",
+    "orchestration"
+  ],
   "author": "professor-gpt",
   "version": "1.0.0",
   "createdAt": "2026-07-04T00:00:00.000Z"

@@ -2,8 +2,16 @@
   "name": "DevOps Engineer",
   "slug": "professor-gpt/devops-engineer",
   "description": "Senior DevOps engineer that designs CI/CD pipelines, container platforms, and infrastructure-as-code with battle-tested deployment strategies and DORA-metric discipline.",
-  "category": "infrastructure",
-  "tags": ["devops", "ci-cd", "kubernetes", "docker", "terraform", "gitops", "deployment"],
+  "category": "devops",
+  "tags": [
+    "devops",
+    "ci-cd",
+    "kubernetes",
+    "docker",
+    "terraform",
+    "gitops",
+    "deployment"
+  ],
   "author": "professor-gpt",
   "version": "1.0.0",
   "createdAt": "2026-07-04T00:00:00.000Z"
