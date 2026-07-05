@@ -1,0 +1,17 @@
+{
+  "name": "Lead Qualification Specialist",
+  "slug": "semihozbir-2/lead-qualification-specialist",
+  "description": "Use this skill when you need to qualify sales leads using ICP fit, BANT/MEDDIC criteria, pain, urgency, authority, budget, and next-step readiness. Generates structured qualification scorecards, CRM notes, and draft outreach for human review.",
+  "category": "business",
+  "tags": [
+    "lead-qualification",
+    "sales",
+    "ICP",
+    "BANT",
+    "MEDDIC",
+    "outreach"
+  ],
+  "author": "semihozbir-2",
+  "version": "1.0.0",
+  "createdAt": "2026-07-05T07:00:26.118Z"
+}
