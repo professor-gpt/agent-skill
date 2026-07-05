@@ -1,7 +1,63 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-03T21:59:18.533Z",
+  "updatedAt": "2026-07-05T07:00:47.402Z",
   "skills": [
+    {
+      "name": "semihozbir-2/lead-qualification-specialist",
+      "title": "Lead Qualification Specialist",
+      "description": "Use this skill when you need to qualify sales leads using ICP fit, BANT/MEDDIC criteria, pain, urgency, authority, budget, and next-step readiness. Generates structured qualification scorecards, CRM notes, and draft outreach for human review.",
+      "version": "1.0.0",
+      "author": "semihozbir-2",
+      "tags": [
+        "lead-qualification",
+        "sales",
+        "ICP",
+        "BANT",
+        "MEDDIC",
+        "outreach"
+      ],
+      "category": "business",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/semihozbir-2/lead-qualification-specialist/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/semihozbir-2/lead-qualification-specialist/metadata.json",
+      "files": [
+        "SKILL.md",
+        "examples/example-qualification.md",
+        "metadata.json",
+        "references/framework.md",
+        "templates/crm-note-template.md",
+        "templates/outreach-email-template.md",
+        "templates/scorecard-template.md"
+      ]
+    },
+    {
+      "name": "semihozbir-2/sql-performance-optimizer",
+      "title": "SQL Performance Optimizer",
+      "description": "Use this skill when the user asks to analyze slow SQL queries, suggest performance improvements, rewrite queries, recommend indexes, or explain a query execution plan in plain language.",
+      "version": "1.0.0",
+      "author": "semihozbir-2",
+      "tags": [
+        "sql",
+        "query-optimization",
+        "performance-tuning",
+        "database",
+        "execution-plans",
+        "indexing"
+      ],
+      "category": "coding",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/semihozbir-2/sql-performance-optimizer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/semihozbir-2/sql-performance-optimizer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "examples/slow-query-optimization.md",
+        "metadata.json",
+        "references/database-index-strategies.md",
+        "templates/output-template.md"
+      ]
+    },
     {
       "name": "professor-gpt/ai-agent-builder",
       "title": "AI Agent Builder",
