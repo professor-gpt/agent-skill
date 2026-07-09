@@ -1,31 +1,7 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-09T12:09:17.810Z",
+  "updatedAt": "2026-07-09T12:10:58.747Z",
   "skills": [
-    {
-      "name": "semihozbir/sql-query-optimizer",
-      "title": "SQL Query Optimizer",
-      "description": "Use this skill when you need to analyze slow SQL queries, rewrite them for better performance, recommend missing indexes, and explain execution plans in plain, non-technical language.",
-      "version": "1.0.0",
-      "author": "semihozbir",
-      "tags": [
-        "sql",
-        "query-optimization",
-        "indexing",
-        "execution-plan",
-        "database",
-        "performance-tuning"
-      ],
-      "category": "coding",
-      "agents": [],
-      "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/semihozbir/sql-query-optimizer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/semihozbir/sql-query-optimizer/metadata.json",
-      "files": [
-        "SKILL.md",
-        "metadata.json"
-      ]
-    },
     {
       "name": "professor-gpt/ai-agent-builder",
       "title": "AI Agent Builder",
