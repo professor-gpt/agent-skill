@@ -9,9 +9,9 @@ jobs:
   auto-merge:
     name: Approve and auto-merge
     runs-on: ubuntu-latest
-    # Only run for PRs from the ProfessorGPT platform account
+    # Only run for PRs from the ProfessorGPT platform account (vars.PUBLISHER_LOGIN)
     if: |
-      github.event.pull_request.user.login == 'professor-gpt' &&
+      github.event.pull_request.user.login == vars.PUBLISHER_LOGIN &&
       startsWith(github.head_ref, 'skill/')
     permissions:
       pull-requests: write

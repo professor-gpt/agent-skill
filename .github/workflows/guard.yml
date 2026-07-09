@@ -8,8 +8,9 @@ jobs:
   guard:
     name: Reject unauthorized PR
     runs-on: ubuntu-latest
-    # Close any PR not coming from the ProfessorGPT platform account
-    if: github.event.pull_request.user.login != 'professor-gpt'
+    # Close any PR not coming from the ProfessorGPT platform account (vars.PUBLISHER_LOGIN).
+    # Fail-safe: if PUBLISHER_LOGIN is unset, do NOT close anything.
+    if: vars.PUBLISHER_LOGIN != '' && github.event.pull_request.user.login != vars.PUBLISHER_LOGIN
     permissions:
       pull-requests: write
 

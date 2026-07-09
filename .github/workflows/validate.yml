@@ -10,8 +10,8 @@ jobs:
   validate:
     name: Validate changed skills
     runs-on: ubuntu-latest
-    # Only run for PRs submitted by the ProfessorGPT platform
-    if: github.actor == 'professor-gpt'
+    # Only run for PRs submitted by the ProfessorGPT platform (vars.PUBLISHER_LOGIN)
+    if: github.actor == vars.PUBLISHER_LOGIN
 
     steps:
       - uses: actions/checkout@v4
