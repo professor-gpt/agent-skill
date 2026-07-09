@@ -1,4 +1,4 @@
-# agent-skills
+# agent-skill
 
 Official skill registry for the [ProfessorGPT](https://professorgpt.ai) platform.
 
@@ -7,7 +7,7 @@ Skills are automatically submitted, validated, and published via the ProfessorGP
 ## Install a skill
 
 ```bash
-npx -y skills add professor-gpt/agent-skills --skill professor-gpt/code-reviewer --global --agent claude-code
+npx -y skills add professor-gpt/agent-skill --skill professor-gpt/code-reviewer --global --agent claude-code
 ```
 
 ## Structure
