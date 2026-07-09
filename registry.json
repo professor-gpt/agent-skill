@@ -1,7 +1,31 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-05T20:52:14.479Z",
+  "updatedAt": "2026-07-09T12:09:17.810Z",
   "skills": [
+    {
+      "name": "semihozbir/sql-query-optimizer",
+      "title": "SQL Query Optimizer",
+      "description": "Use this skill when you need to analyze slow SQL queries, rewrite them for better performance, recommend missing indexes, and explain execution plans in plain, non-technical language.",
+      "version": "1.0.0",
+      "author": "semihozbir",
+      "tags": [
+        "sql",
+        "query-optimization",
+        "indexing",
+        "execution-plan",
+        "database",
+        "performance-tuning"
+      ],
+      "category": "coding",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/semihozbir/sql-query-optimizer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/semihozbir/sql-query-optimizer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "metadata.json"
+      ]
+    },
     {
       "name": "professor-gpt/ai-agent-builder",
       "title": "AI Agent Builder",
@@ -20,8 +44,8 @@
       "category": "ai-ml",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ai-agent-builder/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ai-agent-builder/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/ai-agent-builder/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/ai-agent-builder/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/agent-eval.md",
@@ -48,8 +72,8 @@
       "category": "analysis",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/data-engineer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/data-engineer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/data-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/data-engineer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/pipeline-review.md",
@@ -76,8 +100,8 @@
       "category": "devops",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/devops-engineer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/devops-engineer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/devops-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/devops-engineer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/production-readiness.md",
@@ -104,8 +128,8 @@
       "category": "other",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/financial-analyst/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/financial-analyst/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/financial-analyst/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/financial-analyst/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/model-review.md",
@@ -132,8 +156,8 @@
       "category": "coding",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/frontend-architect/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/frontend-architect/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/frontend-architect/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/frontend-architect/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/accessibility-audit.md",
@@ -160,8 +184,8 @@
       "category": "creativity",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/growth-marketer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/growth-marketer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/growth-marketer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/growth-marketer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/landing-page-cro.md",
@@ -188,8 +212,8 @@
       "category": "ai-ml",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ml-engineer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ml-engineer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/ml-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/ml-engineer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/model-deployment.md",
@@ -216,8 +240,8 @@
       "category": "quality",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/qa-test-engineer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/qa-test-engineer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/qa-test-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/qa-test-engineer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/release-testing.md",
@@ -244,8 +268,8 @@
       "category": "coding",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/sre-incident-commander/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/sre-incident-commander/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/sre-incident-commander/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/sre-incident-commander/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/incident-response.md",
@@ -272,8 +296,8 @@
       "category": "design",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ux-designer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/ux-designer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/ux-designer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/ux-designer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/heuristic-evaluation.md",
@@ -299,8 +323,8 @@
       "category": "coding",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/code-reviewer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/code-reviewer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/code-reviewer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/code-reviewer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/performance.md",
@@ -327,8 +351,8 @@
       "category": "analysis",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/sql-expert/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/sql-expert/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/sql-expert/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/sql-expert/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/query-optimization.md",
@@ -354,8 +378,8 @@
       "category": "writing",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/technical-writer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/technical-writer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/technical-writer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/technical-writer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/doc-review.md",
@@ -382,8 +406,8 @@
       "category": "coding",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/system-architect/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/system-architect/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/system-architect/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/system-architect/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/scalability.md",
@@ -410,8 +434,8 @@
       "category": "coding",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/security-auditor/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/security-auditor/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/security-auditor/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/security-auditor/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/owasp-top10.md",
@@ -438,8 +462,8 @@
       "category": "productivity",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/product-manager/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/product-manager/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/product-manager/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/product-manager/metadata.json",
       "files": [
         "SKILL.md",
         "examples/rice-scoring-example.md",
@@ -465,8 +489,8 @@
       "category": "coding",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/api-designer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/api-designer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/api-designer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/api-designer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/api-review.md",
@@ -491,8 +515,8 @@
       "category": "coding",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/debug-detective/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/debug-detective/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/debug-detective/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/debug-detective/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/debug-checklist.md",
@@ -519,8 +543,8 @@
       "category": "analysis",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/data-analyst/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/data-analyst/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/data-analyst/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/data-analyst/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/data-quality.md",
@@ -547,8 +571,8 @@
       "category": "creativity",
       "agents": [],
       "license": "MIT",
-      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/prompt-engineer/SKILL.md",
-      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skills/main/skills/professor-gpt/prompt-engineer/metadata.json",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/prompt-engineer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/professor-gpt/prompt-engineer/metadata.json",
       "files": [
         "SKILL.md",
         "checklists/prompt-review.md",
