@@ -1,7 +1,30 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-09T12:10:58.747Z",
+  "updatedAt": "2026-07-09T12:47:59.299Z",
   "skills": [
+    {
+      "name": "semihozbir/analytics-dashboard-advisor",
+      "title": "Analytics Dashboard Advisor",
+      "description": "Use this skill when you need to design or recommend analytics dashboards, including metrics, dimensions, chart choices, drilldowns, alerts, and executive summary narratives.",
+      "version": "1.0.0",
+      "author": "semihozbir",
+      "tags": [
+        "analytics",
+        "dashboards",
+        "data-visualization",
+        "business-intelligence",
+        "metrics"
+      ],
+      "category": "business",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/semihozbir/analytics-dashboard-advisor/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/semihozbir/analytics-dashboard-advisor/metadata.json",
+      "files": [
+        "SKILL.md",
+        "metadata.json"
+      ]
+    },
     {
       "name": "professor-gpt/ai-agent-builder",
       "title": "AI Agent Builder",
