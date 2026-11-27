@@ -1,7 +1,33 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-09T13:00:13.707Z",
+  "updatedAt": "2026-11-27T11:33:00.847Z",
   "skills": [
+    {
+      "name": "ww7ztp8k9v/creative-production",
+      "title": "Creative Production",
+      "description": "Use this skill when you need to turn a raw idea into a structured creative brief, campaign concept, or content production plan.",
+      "version": "1.0.0",
+      "author": "ww7ztp8k9v",
+      "tags": [
+        "creative-brief",
+        "ideation",
+        "concept-development",
+        "campaign-planning",
+        "content-production"
+      ],
+      "category": "creativity",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/ww7ztp8k9v/creative-production/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/ww7ztp8k9v/creative-production/metadata.json",
+      "files": [
+        "SKILL.md",
+        "examples/idea-to-campaign-example.md",
+        "metadata.json",
+        "references/creative-frameworks.md",
+        "templates/creative-brief.md"
+      ]
+    },
     {
       "name": "professor-gpt/ai-agent-builder",
       "title": "AI Agent Builder",
