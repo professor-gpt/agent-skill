@@ -1,7 +1,31 @@
 {
   "version": "1",
-  "updatedAt": "2026-11-27T11:33:00.847Z",
+  "updatedAt": "2026-11-27T11:36:32.013Z",
   "skills": [
+    {
+      "name": "semihozbir/fitness-personal-trainer",
+      "title": "Fitness Personal Trainer",
+      "description": "Use this skill when a user requests a personalized fitness program, workout plan, or training evaluation based on age, weight, BMI, activity status, fitness level, and goals. The agent assesses the user's profile, designs an evidence-based training program, and delivers it in a structured, actionable format.",
+      "version": "1.0.0",
+      "author": "semihozbir",
+      "tags": [
+        "fitness",
+        "personal-training",
+        "health",
+        "workout-program",
+        "exercise-planning",
+        "wellness"
+      ],
+      "category": "productivity",
+      "agents": [],
+      "license": "MIT",
+      "skillMdUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/semihozbir/fitness-personal-trainer/SKILL.md",
+      "metadataUrl": "https://raw.githubusercontent.com/professor-gpt/agent-skill/main/skills/semihozbir/fitness-personal-trainer/metadata.json",
+      "files": [
+        "SKILL.md",
+        "metadata.json"
+      ]
+    },
     {
       "name": "ww7ztp8k9v/creative-production",
       "title": "Creative Production",
